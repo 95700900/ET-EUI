@@ -109,6 +109,23 @@ namespace ET.Client
      		}
      	}
 
+		public TMPro.TextMeshProUGUI ELabel_TextMeshProUGUI
+     	{
+     		get
+     		{
+     			if (this.uiTransform == null)
+     			{
+     				Log.Error("uiTransform is null.");
+     				return null;
+     			}
+     			if( this.m_ELabel_TextMeshProUGUI == null )
+     			{
+		    		this.m_ELabel_TextMeshProUGUI = UIFindHelper.FindDeepChild<TMPro.TextMeshProUGUI>(this.uiTransform.gameObject,"Panel/ELabel_");
+     			}
+     			return this.m_ELabel_TextMeshProUGUI;
+     		}
+     	}
+
 		public void DestroyWidget()
 		{
 			this.m_EAccountInputField = null;
@@ -117,6 +134,7 @@ namespace ET.Client
 			this.m_EPasswordImage = null;
 			this.m_ELoginBtnButton = null;
 			this.m_ELoginBtnImage = null;
+			this.m_ELabel_TextMeshProUGUI = null;
 			this.uiTransform = null;
 		}
 
@@ -126,6 +144,7 @@ namespace ET.Client
 		private UnityEngine.UI.Image m_EPasswordImage = null;
 		private UnityEngine.UI.Button m_ELoginBtnButton = null;
 		private UnityEngine.UI.Image m_ELoginBtnImage = null;
+		private TMPro.TextMeshProUGUI m_ELabel_TextMeshProUGUI = null;
 		public Transform uiTransform = null;
 	}
 }

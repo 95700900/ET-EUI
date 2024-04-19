@@ -1,4 +1,5 @@
 ﻿using ET;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -224,7 +225,7 @@ namespace UnityEditor.UI
             go2.transform.SetAsLastSibling();
             go2.AddComponent<RectTransform>();
             go2.AddComponent<CanvasRenderer>();
-            Text text = go2.AddComponent<Text>();
+            var text = go2.AddComponent<TextMeshProUGUI>();
             text.color = Color.black;
             text.text = "1111";
            
@@ -240,7 +241,7 @@ namespace UnityEditor.UI
             go.transform.SetAsLastSibling();
             go.AddComponent<RectTransform>();
             go.AddComponent<CanvasRenderer>();
-            Text text = go.AddComponent<Text>();
+            var text = go.AddComponent<TextMeshProUGUI>();
             text.color = Color.black;
             text.text = "1111";
           
