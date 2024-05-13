@@ -14,7 +14,6 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		"System.Runtime.CompilerServices.Unsafe.dll",
 		"System.dll",
 		"Unity.Core.dll",
-		"Unity.Loader.dll",
 		"Unity.ThirdParty.dll",
 		"UnityEngine.CoreModule.dll",
 		"YooAsset.dll",
@@ -66,7 +65,6 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// ET.AInvokeHandler<ET.NetComponentOnRead>
 	// ET.AInvokeHandler<ET.Server.RobotInvokeArgs,object>
 	// ET.AInvokeHandler<ET.TimerCallback>
-	// ET.ATimer<object>
 	// ET.AwakeSystem<object,ET.ActorId,object>
 	// ET.AwakeSystem<object,int,Unity.Mathematics.float3>
 	// ET.AwakeSystem<object,int,int>
@@ -826,10 +824,6 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.ReadOnlySpan.Enumerator<byte>
 	// System.ReadOnlySpan<byte>
 	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder<object>
-	// System.Runtime.CompilerServices.ConditionalWeakTable.<>c<object,object>
-	// System.Runtime.CompilerServices.ConditionalWeakTable.CreateValueCallback<object,object>
-	// System.Runtime.CompilerServices.ConditionalWeakTable.Enumerator<object,object>
-	// System.Runtime.CompilerServices.ConditionalWeakTable<object,object>
 	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<byte>
 	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<object>
 	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable<byte>
@@ -1345,7 +1339,6 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// object ET.Entity.GetComponent<object>()
 		// object ET.Entity.GetParent<object>()
 		// System.Void ET.Entity.RemoveComponent<object>()
-		// object ET.EntityHelper.Scene<object>(ET.Entity)
 		// System.Void ET.EntitySystemSingleton.Awake<ET.ActorId,object>(ET.Entity,ET.ActorId,object)
 		// System.Void ET.EntitySystemSingleton.Awake<int,Unity.Mathematics.float3>(ET.Entity,int,Unity.Mathematics.float3)
 		// System.Void ET.EntitySystemSingleton.Awake<int,int>(ET.Entity,int,int)
@@ -1380,7 +1373,6 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// object ET.MongoHelper.Deserialize<object>(byte[])
 		// object ET.MongoHelper.FromJson<object>(string)
 		// System.Void ET.ObjectHelper.Swap<object>(object&,object&)
-		// object ET.ObjectPool.Fetch<object>()
 		// System.Void ET.RandomGenerator.BreakRank<object>(System.Collections.Generic.List<object>)
 		// object ET.RandomGenerator.RandomArray<object>(System.Collections.Generic.List<object>)
 		// object ET.World.AddSingleton<object>()
@@ -1483,7 +1475,6 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// object MongoDB.Bson.Serialization.BsonSerializer.Deserialize<object>(string,System.Action<MongoDB.Bson.Serialization.BsonDeserializationContext.Builder>)
 		// MongoDB.Bson.Serialization.IBsonSerializer<object> MongoDB.Bson.Serialization.BsonSerializer.LookupSerializer<object>()
 		// object MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<object>(MongoDB.Bson.Serialization.IBsonSerializer<object>,MongoDB.Bson.Serialization.BsonDeserializationContext)
-		// object MongoDB.Driver.Core.Misc.Ensure.IsNotNull<object>(object,string)
 		// System.Threading.Tasks.Task<object> MongoDB.Driver.IAsyncCursorExtensions.FirstOrDefaultAsync<object>(MongoDB.Driver.IAsyncCursor<object>,System.Threading.CancellationToken)
 		// System.Threading.Tasks.Task<System.Collections.Generic.List<object>> MongoDB.Driver.IAsyncCursorExtensions.ToListAsync<object>(MongoDB.Driver.IAsyncCursor<object>,System.Threading.CancellationToken)
 		// System.Threading.Tasks.Task<MongoDB.Driver.IAsyncCursor<object>> MongoDB.Driver.IMongoCollection<object>.FindAsync<object>(MongoDB.Driver.FilterDefinition<object>,MongoDB.Driver.FindOptions<object,object>,System.Threading.CancellationToken)
@@ -1492,7 +1483,6 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// System.Threading.Tasks.Task<MongoDB.Driver.IAsyncCursor<object>> MongoDB.Driver.IMongoCollectionExtensions.FindAsync<object>(MongoDB.Driver.IMongoCollection<object>,System.Linq.Expressions.Expression<System.Func<object,bool>>,MongoDB.Driver.FindOptions<object,object>,System.Threading.CancellationToken)
 		// System.Threading.Tasks.Task<MongoDB.Driver.ReplaceOneResult> MongoDB.Driver.IMongoCollectionExtensions.ReplaceOneAsync<object>(MongoDB.Driver.IMongoCollection<object>,System.Linq.Expressions.Expression<System.Func<object,bool>>,object,MongoDB.Driver.ReplaceOptions,System.Threading.CancellationToken)
 		// MongoDB.Driver.IMongoCollection<object> MongoDB.Driver.IMongoDatabase.GetCollection<object>(string,MongoDB.Driver.MongoCollectionSettings)
-		// object ReferenceCollector.Get<object>(string)
 		// object System.Activator.CreateInstance<object>()
 		// byte[] System.Array.Empty<byte>()
 		// object[] System.Array.Empty<object>()
